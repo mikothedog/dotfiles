@@ -2,7 +2,7 @@
 #   man 5 mako
 # To view all configuration options.
 
-font=JetBrains Mono Regular 12
+font=JetBrains Mono 12
 format=%s\n%b
 text-alignment=center
 sort=-time
@@ -10,8 +10,8 @@ output=DP-2
 layer=overlay
 anchor=top-center
 background-color=#363636
-width=210
-height=110
+# width=210
+# height=110
 border-size=2
 border-color=#363636
 border-radius=5

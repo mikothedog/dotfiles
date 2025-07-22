@@ -50,7 +50,7 @@
 #waybar {
     background: transparent;
     color: white;
-    font-family: JetBrains Mono;
+    font-family: "JetBrains Mono", "Noto Sans";
     font-size: 14px;
 }
 
