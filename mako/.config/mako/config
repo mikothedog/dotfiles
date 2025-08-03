@@ -10,8 +10,6 @@ output=DP-2
 layer=overlay
 anchor=top-center
 background-color=#363636
-# width=210
-# height=110
 border-size=2
 border-color=#363636
 border-radius=5
@@ -36,3 +34,6 @@ border-color=#363636
 
 [app-name=lightcord summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
 invisible=1
+
+[app-name=notify-send summary~="^Volume: [0-9]{1,3}%"]
+history=0

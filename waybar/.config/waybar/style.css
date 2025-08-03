@@ -23,7 +23,7 @@
 
 @keyframes blink-critical {
     70% {
-      color: white;
+        color: white;
     }
 
     to {
@@ -104,7 +104,7 @@
 }
 
 #cpu {
-  /* No styles */
+    /* No styles */
 }
 
 #cpu.warning {
@@ -144,14 +144,6 @@
 
 #network.disconnected {
     color: orange;
-}
-
-#pulseaudio {
-    /* No styles */
-}
-
-#pulseaudio.muted {
-    /* No styles */
 }
 
 #custom-spotify {
