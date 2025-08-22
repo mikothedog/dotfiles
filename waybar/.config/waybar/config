@@ -30,7 +30,6 @@
         "cpu",
         "custom/keyboard-layout",
         "network",
-        "battery",
         "tray",
         "clock#time"
     ],
@@ -39,26 +38,6 @@
     // -------------------------------------------------------------------------
     // Modules
     // -------------------------------------------------------------------------
-
-    "battery": {
-        "interval": 10,
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        // Connected to AC
-        "format": "{icon}", // Icon: bolt
-        // Not connected to AC
-        "format-discharging": "{icon}  {capacity}%",
-        "format-icons": [
-            "", // Icon: battery-full
-            "", // Icon: battery-three-quarters
-            "", // Icon: battery-half
-            "", // Icon: battery-quarter
-            ""  // Icon: battery-empty
-        ],
-        "tooltip": true
-    },
 
     "clock#time": {
         "interval": 1,
@@ -93,7 +72,7 @@
 
     "memory": {
         "interval": 5,
-        "format": "{}%   ", // Icon: memory
+        "format": "{}% 🎟", // Icon: memory   
         "states": {
             "warning": 70,
             "critical": 90

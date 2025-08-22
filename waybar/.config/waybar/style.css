@@ -116,6 +116,7 @@
 }
 
 #memory {
+    padding-top: 4px;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
