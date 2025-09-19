@@ -47,7 +47,7 @@ cursor-style = block
 cursor-style-blink = true
 font-family = JetBrains Mono
 font-size = 13
-theme = rose-pine
+theme = Rose Pine
 
 keybind = ctrl+k=scroll_page_up
 keybind = ctrl+j=scroll_page_down
