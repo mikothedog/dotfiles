@@ -85,7 +85,8 @@
         "format-wifi": " ", // Icon: wifi
         "format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
-        "tooltip-format": "{essid}: {ipaddr}"
+        "tooltip-format": "{essid}: {ipaddr}",
+        "on-click": "ghostty -e impala"
     },
 
     "hyprland/mode": {
