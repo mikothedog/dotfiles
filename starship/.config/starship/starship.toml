@@ -116,7 +116,7 @@ symbol = " "
 
 [os]
 format = "on [$symbol($name )]($style)"
-disabled = false
+disabled = true
 
 [os.symbols]
 Alpaquita = " "
