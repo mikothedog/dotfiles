@@ -1,0 +1,41 @@
+[opener]
+play = [
+	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+edit = [
+	{ run = '/usr/bin/nvim "$@"', block = true, for = "unix", desc = "Edit" },
+]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+]
+
+[preview]
+max_width = 3000
+max_height = 3000
+
+[open]
+prepend_rules = [
+	{ url = "*.pdf", use = "open" },
+	{ url = "*.png", use = "open" },
+	{ url = "*.jpg", use = "open" },
+	{ url = "*.gif", use = "open" },
+	{ url = "*.json", use = "edit" },
+	{ url = "*.sh", use = "edit" },
+	{ url = "*.toml", use = "edit" },
+	{ url = "*.y*ml", use = "edit" },
+	{ url = "*config", use = "edit" },
+	{ url = "*.cfg", use = "edit" },
+	{ url = "*env", use = "edit" },
+	{ url = "*.d", use = "edit" },
+	{ url = "*.md", use = "edit" },
+	{ url = "*.txt", use = "edit" },
+	{ url = ".zsh*", use = "edit" },
+	{ url = "*.ini", use = "edit" },
+	{ url = "*.lua", use = "edit" },
+	{ url = "*.xml", use = "edit" },
+	{ url = "*.log", use = "edit" }
+]
+
+append_rules = [
+	{ mime = "*", use = "edit" },
+]

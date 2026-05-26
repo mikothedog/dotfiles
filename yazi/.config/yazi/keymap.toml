@@ -1,0 +1,9 @@
+[[mgr.prepend_keymap]]
+on  = "M"
+run = "plugin mount"
+
+[[manager.prepend_keymap]]
+on   = [ "m" ]
+run  = "plugin simple-mtpfs -- select-then-mount --jump"
+desc = "Mount Pixel 9 (MTP)"
+
