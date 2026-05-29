@@ -21,7 +21,7 @@ hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd(musicPlayer))
 hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(toggleMenu))
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy"))
-hl.bind(mainMod .. " + period", hl.dsp.exec_cmd("rofi -modi emoji -show emoji"))
+hl.bind(mainMod .. " + period", hl.dsp.exec_cmd("rofi -modi emoji -show emoji -emoji-mode copy"))
 
 -- Window management
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
