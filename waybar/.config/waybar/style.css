@@ -50,7 +50,7 @@
 #waybar {
     background: transparent;
     color: white;
-    font-family: "JetBrains Mono", "Noto Sans";
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans";
     font-size: 14px;
 }
 
@@ -116,7 +116,7 @@
 }
 
 #memory {
-    padding-top: 4px;
+    padding-top: 1px;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
