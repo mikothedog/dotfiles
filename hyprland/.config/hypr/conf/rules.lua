@@ -20,6 +20,25 @@ hl.window_rule({
 	border_size = 0,
 	rounding = 0,
 })
+hl.window_rule({
+	name = "yazi-float",
+	match = {
+		class = "com.mitchellh.ghostty",
+		initial_title = "Yazi",
+	},
+	float = true,
+	size = { 1200, 700 },
+	center = true,
+	border_size = 5,
+	rounding = 10,
+	rounding_power = 1.75,
+})
+hl.window_rule({
+	match = { class = "Nsxiv" },
+	float = true,
+	maximize = true,
+	center = true,
+})
 
 -- Workspace Rules
 -- See https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/

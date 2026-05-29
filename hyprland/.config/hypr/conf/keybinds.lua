@@ -2,7 +2,7 @@
 
 local terminal = "ghostty"
 local systemMonitor = terminal .. " -e btop"
-local fileManager = terminal .. " -e /sbin/yazi"
+local fileManager = "ghostty --title=Yazi -e /sbin/yazi"
 local musicPlayer = "spotify-launcher"
 local toggleMenu = "~/.config/rofi/scripts/rofi-toggle.sh"
 local editor = terminal .. " -e /sbin/nvim"
