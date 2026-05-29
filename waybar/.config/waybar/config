@@ -102,6 +102,7 @@
     "hyprland/workspaces": {
         "all-outputs": false,
         "disable-scroll": true,
+        "on-click": "activate",
         "format": "{name}",
         "format-icons": {
             "1:www": "龜", // Icon: firefox-browser
