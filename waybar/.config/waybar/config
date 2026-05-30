@@ -13,7 +13,6 @@
     "modules-right": [
         "memory",
         "cpu",
-        "hyprland/language",
         "network",
         "tray",
         "clock#time"
@@ -39,7 +38,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "{usage}% ({load})  ",
+        "format": "{usage}%  ", // removed "({load})" after usage
         "states": {
           "warning": 70,
           "critical": 90
@@ -64,7 +63,7 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": " ",
+        "format-wifi": "󰖩 ", //   
         "format-ethernet": "  {ifname}: {ipaddr}/{cidr}",
         "format-disconnected": "⚠  Disconnected",
         "tooltip-format": "{essid}: {ipaddr}",
