@@ -63,7 +63,7 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": "󰖩 ", //   
+        "format-wifi": "{signalStrength}% 󰖩", //   
         "format-ethernet": "  {ifname}: {ipaddr}/{cidr}",
         "format-disconnected": "⚠  Disconnected",
         "tooltip-format": "{essid}: {ipaddr}",
