@@ -11,10 +11,10 @@
         "hyprland/window"
     ],
     "modules-right": [
+        "tray",
         "memory",
         "cpu",
         "network",
-        "tray",
         "custom/spacer",
         "clock#time"
     ],
