@@ -15,6 +15,7 @@
         "cpu",
         "network",
         "tray",
+        "custom/spacer",
         "clock#time"
     ],
 
@@ -90,6 +91,11 @@
             "focused": " ",
             "default": " "
         }
+    },
+
+    "custom/spacer": {
+        "format": " ",
+        "tooltip": false
     },
 
     "tray": {
