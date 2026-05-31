@@ -39,7 +39,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "{usage}%  ", // removed "({load})" after usage
+        "format": "<span font='10'>{usage}%</span>  ", // removed "({load})" after usage
         "states": {
           "warning": 70,
           "critical": 90
@@ -55,7 +55,7 @@
 
     "memory": {
         "interval": 5,
-        "format": "{}% ",
+        "format": "<span font='10'>{}%</span> ",
         "states": {
             "warning": 70,
             "critical": 90
@@ -64,7 +64,7 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": "{signalStrength}% 󰖩", //   
+        "format-wifi": "<span font='10'>{signalStrength}%</span> 󰖩", //   
         "format-ethernet": "  {ifname}: {ipaddr}/{cidr}",
         "format-disconnected": "⚠  Disconnected",
         "tooltip-format": "{essid}: {ipaddr}",
