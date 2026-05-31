@@ -17,4 +17,4 @@ fi
 ENCODED=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.stdin.read().strip()))" <<< "$INPUT" 2>/dev/null)
 [ -z "$ENCODED" ] && ENCODED="$INPUT"
 
-zen-browser --new-window "http://localhost:8765?q=$ENCODED" &
+zen-browser -P zen-ai -no-remote "http://localhost:8765?q=$ENCODED" &
