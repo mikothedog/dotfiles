@@ -5,6 +5,7 @@ local systemMonitor = terminal .. " -e btop"
 local fileManager = "ghostty --title=Yazi -e /sbin/yazi"
 local musicPlayer = "spotify-launcher"
 local toggleMenu = "~/.config/rofi/scripts/rofi-toggle.sh"
+local zenAI = "~/.config/rofi/scripts/zen-ai.sh"
 local editor = terminal .. " -e /sbin/nvim"
 local browser = "zen-browser"
 local bluetui = terminal .. " -e /sbin/bluetui"
@@ -34,6 +35,7 @@ hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.exec_cmd("hyprctl dispatch exit"))
 
 -- Utilities
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(zenAI))
 hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd(bluetui))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(impala))
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("pkill waybar && hyprctl dispatch exec waybar"))
