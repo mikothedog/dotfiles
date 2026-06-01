@@ -76,14 +76,6 @@ hl.window_rule({
 	rounding = 10,
 	rounding_power = 1.75,
 })
-hl.window_rule({
-	name = "zen-ai-float",
-	match = { class = "zen-ai" },
-	fullscreen_state = "1 2",
-	size = "(monitor_w) (monitor_h)",
-	pin = true,
-	stay_focused = true,
-})
 
 -- Workspace Rules
 -- See https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/

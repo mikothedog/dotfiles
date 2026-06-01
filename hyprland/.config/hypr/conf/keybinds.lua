@@ -35,7 +35,10 @@ hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.exec_cmd("hyprctl dispatch exit"))
 
 -- Utilities
-hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(zenAI))
+hl.bind(mainMod .. " + A", function()
+	hl.dispatch(hl.dsp.focus({ workspace = "empty" }))
+	hl.dispatch(hl.dsp.exec_cmd(zenAI))
+end)
 hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd(bluetui))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(impala))
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("pkill waybar && hyprctl dispatch exec waybar"))
