@@ -76,6 +76,17 @@ hl.window_rule({
 	rounding = 10,
 	rounding_power = 1.75,
 })
+hl.window_rule({
+	name = "waybar-calendar",
+	match = {
+		class = "com.waybar.calendar",
+	},
+	float = true,
+	border_size = 5,
+	border_color = "#363636",
+	rounding = 10,
+	rounding_power = 1.75,
+})
 
 -- Workspace Rules
 -- See https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
