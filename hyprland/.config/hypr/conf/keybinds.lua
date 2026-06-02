@@ -8,6 +8,7 @@ local toggleMenu = "~/.config/rofi/scripts/rofi-toggle.sh"
 local zenAI = "~/.config/rofi/scripts/zen-ai.sh"
 local editor = terminal .. " -e /sbin/nvim"
 local browser = "zen-browser"
+local calendar = "~/.cargo/bin/waybar-calendar"
 local bluetui = terminal .. " -e /sbin/bluetui"
 local impala = terminal .. " -e /sbin/impala"
 
@@ -39,6 +40,7 @@ hl.bind(mainMod .. " + A", function()
 	hl.dispatch(hl.dsp.focus({ workspace = "empty" }))
 	hl.dispatch(hl.dsp.exec_cmd(zenAI))
 end)
+hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd(calendar))
 hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd(bluetui))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(impala))
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("pkill waybar && hyprctl dispatch exec waybar"))
