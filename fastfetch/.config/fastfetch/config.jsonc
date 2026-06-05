@@ -1,0 +1,105 @@
+// Rosé Pine Moon — fastfetch config
+// Place at: ~/.config/fastfetch/config.jsonc
+// Requires: fastfetch >= 2.0, a Nerd Font terminal
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/miko/Downloads/butters.png",
+    "width": 35,
+    "height": 16
+  },
+
+  "display": {
+    "separator": "  ",
+    "key": {
+      "width": 14
+    }
+  },
+
+  "modules": [
+    {
+      "type": "title",
+      "format": "\u001b[38;2;196;167;231m{user-name}\u001b[38;2;224;222;244m@\u001b[38;2;156;207;216m{host-name}\u001b[0m"
+    },
+    {
+      "type": "separator",
+      "string": "─",
+      "color": "38;2;110;106;134"
+    },
+    {
+      "type": "os",
+      "key": "  OS",
+      "keyColor": "38;2;235;111;146"
+    },
+    {
+      "type": "kernel",
+      "key": "  Kernel",
+      "keyColor": "38;2;246;193;119"
+    },
+    {
+      "type": "uptime",
+      "key": "  Uptime",
+      "keyColor": "38;2;156;207;216"
+    },
+    {
+      "type": "shell",
+      "key": "  Shell",
+      "keyColor": "38;2;196;167;231"
+    },
+    {
+      "type": "wm",
+      "key": "  WM",
+      "keyColor": "38;2;234;154;151"
+    },
+    {
+      "type": "terminal",
+      "key": "  Terminal",
+      "keyColor": "38;2;62;143;176"
+    },
+    {
+      "type": "terminalfont",
+      "key": "  Font",
+      "keyColor": "38;2;144;140;170"
+    },
+    {
+      "type": "theme",
+      "key": "  Theme",
+      "keyColor": "38;2;196;167;231"
+    },
+    {
+      "type": "cpu",
+      "key": "  CPU",
+      "keyColor": "38;2;246;193;119"
+    },
+    {
+      "type": "gpu",
+      "key": "  GPU",
+      "keyColor": "38;2;156;207;216"
+    },
+    {
+      "type": "memory",
+      "key": "  Memory",
+      "keyColor": "38;2;235;111;146"
+    },
+    {
+      "type": "disk",
+      "key": "  Disk /",
+      "keyColor": "38;2;234;154;151"
+    },
+    {
+      "type": "separator",
+      "string": "─",
+      "color": "38;2;110;106;134"
+    },
+    {
+      "type": "colors",
+      "symbol": "block",
+      "block": {
+        "width": 5,
+        "height": 5
+      }
+    }
+  ]
+}
