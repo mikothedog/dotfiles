@@ -93,10 +93,6 @@
     {
       "type": "colors",
       "symbol": "block",
-      "block": {
-        "width": 5,
-        "height": 5
-      }
     }
   ]
 }
