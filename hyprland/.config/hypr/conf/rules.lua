@@ -87,6 +87,15 @@ hl.window_rule({
 	rounding = 10,
 	rounding_power = 1.75,
 })
+hl.window_rule({
+	name = "fastfetch-popup-rule",
+	match = {
+		title = "fastfetch popup",
+	},
+	size = { "monitor_w*0.5", "monitor_h*0.4" },
+	float = true,
+	center = true,
+})
 
 -- Workspace Rules
 -- See https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
