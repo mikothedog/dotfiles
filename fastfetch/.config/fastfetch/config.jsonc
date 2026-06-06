@@ -9,90 +9,115 @@
   },
 
   "display": {
-    "separator": "  ",
+    "separator": "",
+    "showErrors": true,
     "key": {
       "width": 14
+    },
+    "constants": [
+      "#C4A7E7",
+      "#E0DEF4",
+      "#9CCFD8"
+    ],
+    "color": {
+      "keys": "#C4A7E7",
+      "title": "#C4A7E7"
     }
   },
 
   "modules": [
     {
       "type": "title",
-      "format": "\u001b[38;2;196;167;231m{user-name}\u001b[38;2;224;222;244m@\u001b[38;2;156;207;216m{host-name}\u001b[0m"
+      "format": "{##C4A7E7}{user-name}{##E0DEF4}@{##9CCFD8}{host-name}{#}"
     },
     {
       "type": "separator",
       "string": "─",
-      "color": "38;2;110;106;134"
+      "outputColor": "#6E6A86"
     },
     {
       "type": "os",
-      "key": "  OS",
-      "keyColor": "38;2;235;111;146"
+      "key": "OS",
+      "keyColor": "#EB6F92"
+    },
+    {
+      "type": "host",
+      "key": "Host",
+      "keyColor": "#F6C177"
     },
     {
       "type": "kernel",
-      "key": "  Kernel",
-      "keyColor": "38;2;246;193;119"
+      "key": "Kernel",
+      "keyColor": "#9CCFD8"
     },
     {
       "type": "uptime",
-      "key": "  Uptime",
-      "keyColor": "38;2;156;207;216"
+      "key": "Uptime",
+      "keyColor": "#C4A7E7"
+    },
+    {
+      "type": "packages",
+      "key": "Packages",
+      "keyColor": "#EA9A97"
     },
     {
       "type": "shell",
-      "key": "  Shell",
-      "keyColor": "38;2;196;167;231"
+      "key": "Shell",
+      "keyColor": "#3E8FB0"
     },
     {
       "type": "wm",
-      "key": "  WM",
-      "keyColor": "38;2;234;154;151"
+      "key": "WM",
+      "keyColor": "#908CAA"
     },
     {
       "type": "terminal",
-      "key": "  Terminal",
-      "keyColor": "38;2;62;143;176"
+      "key": "Terminal",
+      "keyColor": "#C4A7E7"
     },
     {
       "type": "terminalfont",
-      "key": "  Font",
-      "keyColor": "38;2;144;140;170"
-    },
-    {
-      "type": "theme",
-      "key": "  Theme",
-      "keyColor": "38;2;196;167;231"
+      "key": "Term Font",
+      "keyColor": "#F6C177"
     },
     {
       "type": "cpu",
-      "key": "  CPU",
-      "keyColor": "38;2;246;193;119"
+      "key": "CPU",
+      "keyColor": "#EA9A97"
     },
     {
       "type": "gpu",
-      "key": "  GPU",
-      "keyColor": "38;2;156;207;216"
+      "key": "GPU",
+      "keyColor": "#EB6F92"
     },
     {
       "type": "memory",
-      "key": "  Memory",
-      "keyColor": "38;2;235;111;146"
+      "key": "Memory",
+      "keyColor": "#3E8FB0"
+    },
+    {
+      "type": "swap",
+      "key": "Swap",
+      "keyColor": "#9CCFD8"
     },
     {
       "type": "disk",
-      "key": "  Disk /",
-      "keyColor": "38;2;234;154;151"
+      "key": "Disk /",
+      "keyColor": "#C4A7E7"
+    },
+    {
+      "type": "localip",
+      "key": "Local IP",
+      "keyColor": "#EA9A97"
     },
     {
       "type": "separator",
       "string": "─",
-      "color": "38;2;110;106;134"
+      "outputColor": "#6E6A86"
     },
     {
       "type": "colors",
-      "symbol": "block",
+      "symbol": "block"
     }
   ]
 }

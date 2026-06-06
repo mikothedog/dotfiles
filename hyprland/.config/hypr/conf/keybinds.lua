@@ -11,7 +11,7 @@ local browser = "zen-browser"
 local calendar = "~/.cargo/bin/waybar-calendar"
 local bluetui = terminal .. " -e /sbin/bluetui"
 local impala = terminal .. " -e /sbin/impala"
-local fastfetch = terminal .. " --title='fastfetch popup' -e sh -c 'fastfetch; read -n 1 -p \"\"'"
+local fastfetch = terminal .. " --title='fastfetch popup' -e /usr/bin/zsh -i -c 'fastfetch; read -n 1 -p \"\"'"
 
 local mainMod = "SUPER"
 
