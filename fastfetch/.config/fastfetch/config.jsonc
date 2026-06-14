@@ -3,9 +3,9 @@
 
   "logo": {
     "type": "kitty-direct",
-    "source": "/home/miko/Downloads/butters.png",
+    "source": "/home/miko/Pictures/miko/miko-pixelated.png",
     "width": 35,
-    "height": 16
+    "height": 26
   },
 
   "display": {
