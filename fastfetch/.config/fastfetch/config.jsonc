@@ -3,7 +3,7 @@
 
   "logo": {
     "type": "kitty-direct",
-    "source": "/home/miko/Downloads/south-park-computer-pixelated.png",
+    "source": "/home/miko/dotfiles/fastfetch/.config/fastfetch/south-park-computer-pixelated.png",
     "width": 35,
     "height": 20
   },
