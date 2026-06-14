@@ -92,7 +92,7 @@ hl.window_rule({
 	match = {
 		title = "fastfetch popup",
 	},
-	size = { "monitor_w*0.5", "monitor_h*0.65" },
+	size = { "monitor_w*0.5", "monitor_h*0.5" },
 	border_size = 5,
 	rounding = 10,
 	rounding_power = 1.75,

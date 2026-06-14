@@ -3,9 +3,9 @@
 
   "logo": {
     "type": "kitty-direct",
-    "source": "/home/miko/Pictures/miko/miko-pixelated.png",
+    "source": "/home/miko/Downloads/south-park-computer-pixelated.png",
     "width": 35,
-    "height": 26
+    "height": 20
   },
 
   "display": {
