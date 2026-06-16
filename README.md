@@ -5,7 +5,7 @@
 ## DO NOT FORGET
 Use stow...
 ```bash
-$ stow *
+cd ~/dotfiles && stow .
 ```
 
 
