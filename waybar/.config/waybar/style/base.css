@@ -1,22 +1,22 @@
 @keyframes blink-warning {
     70% {
-        color: white;
+        color: @fg;
     }
 
     to {
-        color: white;
-        background-color: orange;
+        color: @fg;
+        background-color: @warning;
     }
 }
 
 @keyframes blink-critical {
     70% {
-        color: white;
+        color: @fg;
     }
 
     to {
-        color: white;
-        background-color: red;
+        color: @fg;
+        background-color: @critical;
     }
 }
 
@@ -29,15 +29,15 @@
 }
 
 #waybar {
-    background: transparent;
-    color: white;
+    background: @bg;
+    color: @fg;
     font-family: "JetBrainsMono Nerd Font", "Noto Sans";
     font-size: 14px;
 }
 
 tooltip {
-    background: #323232;
-    border: 2px solid #323232;
+    background: @surface;
+    border: 2px solid @surface;
     border-radius: 5px;
 }
 

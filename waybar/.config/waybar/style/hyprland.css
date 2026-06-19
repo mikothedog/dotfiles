@@ -7,21 +7,21 @@
     padding-bottom: 2px;
     padding-left: 15px;
     padding-right: 15px;
-    color: white;
+    color: @fg;
 }
 
 #workspaces button.focused {
-    border-color: white;
-    color: #323232;
-    background-color: white;
+    border-color: @fg;
+    color: @surface;
+    background-color: @fg;
 }
 
 #workspaces button.active {
-    color: #323232;
-    background-color: white;
+    color: @surface;
+    background-color: @fg;
 }
 
 #workspaces button.urgent {
-    border-color: #c9545d;
-    color: #c9545d;
+    border-color: @urgent;
+    color: @urgent;
 }

@@ -1,9 +1,9 @@
 #cpu.warning {
-    color: orange;
+    color: @warning;
 }
 
 #cpu.critical {
-    color: red;
+    color: @critical;
 }
 
 #memory {
@@ -14,19 +14,19 @@
 }
 
 #memory.warning {
-    color: orange;
+    color: @warning;
 }
 
 #memory.critical {
-    color: red;
+    color: @critical;
     animation-name: blink-critical;
     animation-duration: 2s;
 }
 
 #network.disconnected {
-    color: orange;
+    color: @warning;
 }
 
 #temperature.critical {
-    color: red;
+    color: @critical;
 }

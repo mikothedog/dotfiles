@@ -1,0 +1,8 @@
+@define-color bg       transparent;
+@define-color fg       white;
+@define-color surface  #323232;
+@define-color warning  orange;
+@define-color critical red;
+@define-color urgent   #c9545d;
+@define-color mode-bg  #64727D;
+@define-color accent   rgb(102, 220, 105);
