@@ -1,0 +1,32 @@
+#cpu.warning {
+    color: orange;
+}
+
+#cpu.critical {
+    color: red;
+}
+
+#memory {
+    padding-top: 1px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#memory.warning {
+    color: orange;
+}
+
+#memory.critical {
+    color: red;
+    animation-name: blink-critical;
+    animation-duration: 2s;
+}
+
+#network.disconnected {
+    color: orange;
+}
+
+#temperature.critical {
+    color: red;
+}
