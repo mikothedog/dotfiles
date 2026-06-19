@@ -1,0 +1,11 @@
+# Secrets
+**/*.env
+**/env
+**/*.secret
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Stow backups (if any)
+**/~*
