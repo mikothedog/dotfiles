@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Bla"/>
+  <img src="shared-assets/.config/assets/logo.png" alt="Bla"/>
 </p>
 
 ## DO NOT FORGET

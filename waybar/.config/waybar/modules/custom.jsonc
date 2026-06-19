@@ -1,0 +1,21 @@
+{
+    "clock#time": {
+        "interval": 1,
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%e %B %Y}",
+        "on-click": "~/.cargo/bin/waybar-calendar"
+    },
+    "clock#date": {
+        "interval": 10,
+        "format": "{:%e %b %Y}",
+        "tooltip-format": "{:%e %B %Y}"
+    },
+    "custom/spacer": {
+        "format": " ",
+        "tooltip": false
+    },
+    "tray": {
+        "icon-size": 21,
+        "spacing": 14
+    }
+}

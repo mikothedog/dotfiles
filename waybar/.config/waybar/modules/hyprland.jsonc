@@ -1,0 +1,28 @@
+{
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 120
+    },
+    "hyprland/workspaces": {
+        "all-outputs": false,
+        "disable-scroll": true,
+        "on-click": "activate",
+        "format": "{name}",
+        "format-icons": {
+            "1:www": "龜",
+            "2:mail": " ",
+            "3:editor": " ",
+            "4:terminals": " ",
+            "5:portal": " ",
+            "urgent": " ",
+            "focused": " ",
+            "default": " "
+        }
+    },
+    "hyprland/language": {
+        "format": "{}  ",
+        "format-en": "EN",
+        "format-he": "HE",
+        "keyboard-name": "telink-wireless-gaming-keyboard"
+    }
+}

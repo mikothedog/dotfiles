@@ -1,0 +1,26 @@
+{
+    "cpu": {
+        "interval": 5,
+        "format": "<span font='10'>{usage}%</span>  ",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
+    },
+    "memory": {
+        "interval": 5,
+        "format": "<span font='10'>{}%</span> ",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
+    },
+    "network": {
+        "interval": 5,
+        "format-wifi": "<span font='10'>{signalStrength}%</span> 󰖩",
+        "format-ethernet": "  {ifname}: {ipaddr}/{cidr}",
+        "format-disconnected": "⚠  Disconnected",
+        "tooltip-format": "{essid}: {ipaddr}",
+        "on-click": "ghostty -e impala"
+    }
+}

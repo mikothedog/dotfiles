@@ -3,7 +3,7 @@
 
   "logo": {
     "type": "kitty-direct",
-    "source": "~/dotfiles/assets/logo.png",
+    "source": "~/.config/assets/logo.png",
     "width": 44,
     "height": 20
   },
