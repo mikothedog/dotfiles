@@ -3,7 +3,7 @@
         "interval": 1,
         "format": "{:%H:%M}",
         "tooltip-format": "{:%e %B %Y}",
-        "on-click": "waybar-calendar"
+        "on-click": "~/.local/bin/waybar-calendar"
     },
     "clock#date": {
         "interval": 10,
