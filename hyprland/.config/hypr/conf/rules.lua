@@ -99,6 +99,14 @@ hl.window_rule({
 	float = true,
 	center = true,
 })
+hl.window_rule({
+	name = "zen-ai-empty-workspace",
+	match = {
+		class = "zen-ai",
+		title = "zen-ai",
+	},
+	workspace = "empty",
+})
 
 -- Workspace Rules
 -- See https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/

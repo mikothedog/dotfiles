@@ -37,10 +37,7 @@ hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.exec_cmd("hyprctl dispatch exit"))
 
 -- Utilities
-hl.bind(mainMod .. " + A", function()
-	hl.dispatch(hl.dsp.focus({ workspace = "empty" }))
-	hl.dispatch(hl.dsp.exec_cmd(zenAI))
-end)
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(zenAI))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("~/.config/hypr/scripts/random-wallpaper.sh"))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd(calendar))
 hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd(bluetui))
