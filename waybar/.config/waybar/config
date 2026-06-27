@@ -15,6 +15,7 @@
         "memory",
         "cpu",
         "network",
+        "custom/bluetooth",
         "custom/spacer",
         "clock#time"
     ],

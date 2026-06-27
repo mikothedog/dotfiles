@@ -26,6 +26,11 @@
     font-size: 15px;
 }
 
+#custom-bluetooth {
+    padding-top: 1px;
+    font-weight: bold;
+}
+
 #mode {
     background: @mode-bg;
     border-top: 2px solid @fg;

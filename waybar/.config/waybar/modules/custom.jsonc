@@ -14,8 +14,17 @@
         "format": " ",
         "tooltip": false
     },
+    "custom/bluetooth": {
+        "exec": "~/.config/waybar/scripts/bluetooth-status.sh",
+        "interval": 2,
+        "return-type": "empty",
+        "format": " {}",
+        "tooltip": true,
+        "tooltip-format": "Open bluetui",
+        "on-click": "ghostty -e bluetui",
+    },
     "tray": {
-        "icon-size": 21,
+        "icon-size": 20,
         "spacing": 14
     }
 }
