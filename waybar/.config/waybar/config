@@ -12,10 +12,10 @@
     ],
     "modules-right": [
         "tray",
+        "custom/bluetooth",
         "memory",
         "cpu",
         "network",
-        "custom/bluetooth",
         "custom/spacer",
         "clock#time"
     ],
