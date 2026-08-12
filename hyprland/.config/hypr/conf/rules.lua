@@ -7,6 +7,12 @@ hl.window_rule({
 	opacity = "0.98 0.98", -- active inactive
 })
 
+hl.window_rule({
+	name = "spotify-opacity",
+	match = { class = "spotify" },
+	opacity = "0.96 0.96", -- active inactive
+})
+
 -- No border/rounding for single-window workspaces
 hl.window_rule({
 	name = "no-gaps-wtv1",
