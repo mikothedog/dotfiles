@@ -4,7 +4,7 @@
 hl.window_rule({
 	name = "ghostty-opacity",
 	match = { class = "com.mitchellh.ghostty" },
-	opacity = "0.96 0.96", -- active inactive
+	opacity = "0.98 0.98", -- active inactive
 })
 
 -- No border/rounding for single-window workspaces
@@ -92,7 +92,7 @@ hl.window_rule({
 	match = {
 		title = "fastfetch popup",
 	},
-	size = { "monitor_w*0.5", "monitor_h*0.5" },
+	size = { "monitor_w*0.55", "monitor_h*0.53" },
 	border_size = 5,
 	rounding = 10,
 	rounding_power = 1.75,
