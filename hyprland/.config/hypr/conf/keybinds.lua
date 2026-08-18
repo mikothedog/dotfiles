@@ -44,6 +44,7 @@ hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd(bluetui))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(impala))
 hl.bind(mainMod .. " + SHIFT + D", hl.dsp.exec_cmd(fastfetch))
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("pkill waybar && hyprctl dispatch exec waybar"))
+hl.bind(mainMod .. " + SHIFT + M", hl.dsp.exec_cmd("~/.config/solaar/scripts/mouse"))
 hl.bind("CTRL + SHIFT + Escape", hl.dsp.exec_cmd(systemMonitor))
 
 -- Screenshot with grim + slurp, save and copy
