@@ -1,14 +1,19 @@
 #!/usr/bin/env bash
-# Change this if you get a new mouse.
-DEVICE="Logitech G PRO X Superlight 2"
+# Change this if you get a new mouse (check the name with `solaar show`).
+DEVICE="PRO X 2"
 
-out="$(solaar show "$DEVICE" 2>/dev/null)"
-
-batt="$(grep -m1 -oP 'Battery:\s*\K[0-9]+%' <<<"$out")"
+# `solaar show` pings the device, which wakes it from sleep — the first
+# attempt after waking can report offline, so retry a few times.
+for _ in {1..5}; do
+	out="$(solaar show "$DEVICE" 2>/dev/null)"
+	batt="$(grep -m1 -oP 'Battery:\s*\K[0-9]+%' <<<"$out")"
+	[[ -n "$batt" ]] && break
+	sleep 1
+done
 
 if [[ -z "$batt" ]]; then
-	echo "n/a (device offline)"
+	notify-send -h string:x-canonical-private-synchronous:sys-notify "Device is offline"
 	exit 1
 fi
 
-echo "$batt"
+notify-send -h string:x-canonical-private-synchronous:sys-notify "Battery: $batt"
