@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Change this if you get a new mouse.
+DEVICE="Logitech G PRO X Superlight 2"
+
+out="$(solaar show "$DEVICE" 2>/dev/null)"
+
+batt="$(grep -m1 -oP 'Battery:\s*\K[0-9]+%' <<<"$out")"
+
+if [[ -z "$batt" ]]; then
+	echo "n/a (device offline)"
+	exit 1
+fi
+
+echo "$batt"
