@@ -1,12 +1,12 @@
 [opener]
 play = [
-	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+	{ run = 'mpv %s1', orphan = true, for = "unix" },
 ]
 edit = [
-	{ run = '/usr/bin/nvim "$@"', block = true, for = "unix", desc = "Edit" },
+	{ run = '/usr/bin/nvim %s1', block = true, for = "unix", desc = "Edit" },
 ]
 open = [
-	{ run = 'xdg-open "$@"', desc = "Open" },
+	{ run = 'xdg-open %s1', desc = "Open", for = "linux" },
 ]
 
 [preview]
