@@ -46,6 +46,18 @@ hl.window_rule({
 	center = true,
 })
 hl.window_rule({
+	name = "tone3000-float",
+	match = {
+		class = "TONE3000",
+	},
+	float = true,
+	size = { 1026, 612 },
+	center = true,
+	border_size = 5,
+	rounding = 10,
+	rounding_power = 1.75,
+})
+hl.window_rule({
 	name = "carla-float",
 	match = {
 		class = "carla",
