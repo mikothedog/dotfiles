@@ -58,43 +58,6 @@ hl.window_rule({
 	rounding_power = 1.75,
 })
 hl.window_rule({
-	name = "carla-float",
-	match = {
-		class = "carla",
-	},
-	float = true,
-	size = { "monitor_w*0.8", "monitor_h*0.8" },
-	center = true,
-	border_size = 5,
-	rounding = 10,
-	rounding_power = 1.75,
-})
-hl.window_rule({
-	name = "gxtuner-float",
-	match = {
-		initial_title = "^GxTuner \\(GUI\\)$",
-		xwayland = true,
-	},
-	float = true,
-	size = { "monitor_w*0.2", "monitor_h*0.1.5" },
-	center = true,
-	border_size = 5,
-	rounding = 10,
-	rounding_power = 1.75,
-})
-hl.window_rule({
-	name = "neuralampmodeler-float",
-	match = {
-		initial_title = "^NeuralAmpModeler \\(GUI\\)$",
-		xwayland = true,
-	},
-	float = true,
-	size = { 665, 462 },
-	border_size = 5,
-	rounding = 10,
-	rounding_power = 1.75,
-})
-hl.window_rule({
 	name = "waybar-calendar",
 	match = {
 		class = "com.waybar.calendar",
