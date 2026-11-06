@@ -20,7 +20,7 @@
     }
 }
 
-* {
+*:not(menu):not(menuitem) {
     border: none;
     border-radius: 0;
     min-height: 0;
